@@ -16,7 +16,7 @@ public class line1_menu extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(v.getContext(), googlekart.class);
+                Intent myIntent = new Intent(v.getContext(), MapsLine1.class);
                 startActivityForResult(myIntent, 0);
             }
         });

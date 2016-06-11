@@ -11,6 +11,6 @@ public class googlekart extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_googlekart);
+        setContentView(R.layout.activity_maps_line1);
     }
 }
