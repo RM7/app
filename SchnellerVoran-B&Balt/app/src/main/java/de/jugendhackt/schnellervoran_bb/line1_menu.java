@@ -6,8 +6,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-public class line1_menu extends AppCompatActivity {
 
+
+
+public class line1_menu extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,7 +18,7 @@ public class line1_menu extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(v.getContext(), googlekart.class);
+                Intent myIntent = new Intent(v.getContext(), karte.class);
                 startActivityForResult(myIntent, 0);
             }
         });
