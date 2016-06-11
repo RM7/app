@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Linie 2"
+        android:text="Linie 146"
         android:id="@+id/textView3"
         android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true"
@@ -31,7 +31,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Standort des Bus"
+        android:text="Haltestellen auf der Karte"
         android:id="@+id/button4"
         android:layout_below="@+id/textView3"
         android:layout_centerHorizontal="true"
@@ -45,7 +45,8 @@
         android:id="@+id/textView4"
         android:layout_below="@+id/button4"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="27dp" />
+        android:layout_marginTop="27dp"
+        android:visibility="invisible" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -54,6 +55,79 @@
         android:text="Verspätung:"
         android:id="@+id/textView8"
         android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Stationen: "
+        android:id="@+id/textView11"
+        android:layout_below="@+id/textView8"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Deckstein"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/textView11"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Hildegardis-Krankenhaus"
+        android:id="@+id/textView13"
+        android:layout_below="@+id/textView12"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="WiSo-Fakultät"
+        android:id="@+id/textView14"
+        android:layout_below="@+id/textView13"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Roonstraße"
+        android:id="@+id/textView15"
+        android:layout_below="@+id/textView14"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Moltkestraße"
+        android:id="@+id/textView16"
+        android:layout_below="@+id/textView15"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Rudolfplatz"
+        android:id="@+id/textView17"
+        android:layout_below="@+id/textView16"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Neumarkt"
+        android:id="@+id/textView18"
+        android:layout_below="@+id/textView17"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
